@@ -1,0 +1,19 @@
+/* components/layout/MainLayout.css */
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar-container {
+    width: 250px;
+    flex-shrink: 0;  /* Prevents the sidebar from shrinking */
+  }
+  
+  .main-content-container {
+    flex-grow: 1;
+    margin-left: 0;  /* Pushes content to the right, beside the sidebar */
+    padding: 0rem;
+    overflow-y: auto;
+  }
+  

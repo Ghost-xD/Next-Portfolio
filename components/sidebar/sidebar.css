@@ -1,0 +1,40 @@
+/* components/sidebar/Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-right: 2px solid #444;
+  }
+  
+  .sidebar .sidebar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .sidebar .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .sidebar .sidebar-links li {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #bbb;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar .sidebar-links li:hover {
+    background-color: #555;
+  }
+  
