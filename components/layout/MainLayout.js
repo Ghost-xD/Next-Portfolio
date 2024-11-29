@@ -5,7 +5,8 @@ export default function MainLayout({ children }) {
         <div className="sidebar-container">{children[1]}</div> {}
         <div className="sidebar2-container">{children[2]}</div> {}
         <div className="header-container">{children[0]}</div> {}
-        <div className="main-content-container">{children[3]}</div> {/* Main content */}
+        <div className="main-content-container">{children[3]}</div> {}
+        <div className="footer-container">{children[4]}</div> {}
       </div>
     );
   }

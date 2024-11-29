@@ -6,6 +6,8 @@ import '../components/sidebar2/sidebar2.css';
 import '../components/footer/footer.css';
 import '../components/layout/mainLayout.css';
 
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+
 import Header from '../components/header/Header';
 import Sidebar from '../components/sidebar/Sidebar';
 import Sidebar2 from '../components/sidebar2/Sidebar2';
@@ -21,13 +23,15 @@ export default function Layout({ children }) {
       <title>My Portfolio</title>
     </head>
     <body>
-      <MainLayout>
-        <Header />
-        <Sidebar />
-        <Sidebar2 />
-        <main>{children}</main>
-        <Footer />
-      </MainLayout>
+      <AppRouterCacheProvider>
+        <MainLayout>
+          <Header />
+          <Sidebar />
+          <Sidebar2 />
+          <main>{children}</main>
+          <Footer />
+        </MainLayout>  
+      </AppRouterCacheProvider>
     </body>
   </html>
   );

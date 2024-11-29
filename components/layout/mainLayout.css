@@ -7,12 +7,12 @@
   
   .sidebar-container {
     width: 50px;
-    flex-shrink: 0;  /* Prevents the sidebar from shrinking */
+    flex-shrink: 0;
   }
 
   .sidebar2-container {
     width: 150px;
-    flex-shrink: 0;  /* Prevents the sidebar from shrinking */
+    flex-shrink: 0;
   }
   
   .main-content-container {
@@ -22,3 +22,7 @@
     overflow-y: auto;
   }
   
+  .footer-container {
+    display: flex;
+    overflow: hidden;
+  }
