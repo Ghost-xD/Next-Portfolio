@@ -31,3 +31,11 @@ button {
   height: 100vh;
   flex-direction: column;
 }
+
+.folder-icons {
+  color: aqua;
+}
+
+.file-icons {
+  color: green;
+}

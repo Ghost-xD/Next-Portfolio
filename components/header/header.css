@@ -4,20 +4,20 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 10vh;
-    background-color: #333;
+    height: 2vh;
+    background-color: #000;
     color: #fff;
     padding: 1rem;
     display: flex;
     justify-content: left;
     align-items: center;
-    border-bottom: 2px solid #444;
+    border-bottom: 2px solid #000;
   }
   
   .header .logo {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
   }
   
@@ -30,6 +30,7 @@
   .header .navbar ul {
     display: flex;
     list-style-type: none;
+    margin-left: 1rem;
   }
   
   .header .navbar li {
@@ -38,14 +39,14 @@
   
   .header .navbar a {
     color: #fff;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 4px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
   }
   
   .header .navbar a:hover {
-    background-color: #555;
+    background-color: #000;
   }
   
